@@ -13,7 +13,7 @@
     "description": "Audio guiado de 10 minutos para practicar respiración diafragmática, una técnica validada por la American Psychological Association (APA) para la reducción inmediata de la activación fisiológica asociada a la ansiedad y el estrés.",
     "type": "ejercicio",
     "categoryId": "estres",
-    "fileUrl": "/recursos/ejercicios/respiracion-diafragmatica.mp3"
+    "fileUrl": "/recursos/ejercicios/respiracion-diafragmatica.pdf"
   },
   {
     "id": "audio-mindfulness",
@@ -21,7 +21,7 @@
     "description": "Meditación guiada de 15 minutos basada en el protocolo de Reducción de Estrés Basada en Mindfulness (MBSR) desarrollado por Jon Kabat-Zinn en la Universidad de Massachusetts. Respaldado por estudios del NIH.",
     "type": "audio",
     "categoryId": "mindfulness",
-    "fileUrl": "/recursos/audios/body-scan.mp3"
+    "fileUrl": "/recursos/audios/body-scan.pdf"
   },
   {
     "id": "lista-sintomas-depresion",
