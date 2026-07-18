@@ -39,17 +39,30 @@ export default function TestAnsiedadPage() {
   };
 
   return (
-    <div className="pt-24 pb-16 md:pb-24">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Breadcrumbs items={[
-          { label: "Inicio", href: "/" },
-          { label: "Herramientas", href: "/herramientas" },
-          { label: "Evaluación de Ansiedad" },
-        ]} />
+    <div className="pb-16 md:pb-24">
+      {/* Hero header */}
+      <div className="relative h-40 md:h-48 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1486312699619-be057cfc0342?w=1600&q=80"
+          alt="Persona resolviendo un cuestionario en una tableta"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary-900)]/85 to-[var(--color-primary-700)]/60" />
+        <div className="absolute inset-0 flex items-center">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <Breadcrumbs items={[
+              { label: "Inicio", href: "/" },
+              { label: "Herramientas", href: "/herramientas" },
+              { label: "Evaluación de Ansiedad" },
+            ]} />
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mt-3">
+              Evaluación de Ansiedad (GAD-7)
+            </h1>
+          </div>
+        </div>
+      </div>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-4">
-          Evaluación de Ansiedad (GAD-7)
-        </h1>
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
 
         <Alert type="info" title="Información importante" className="mb-8">
           Esta herramienta se basa en el cuestionario GAD-7, un instrumento de cribado validado clínicamente.

@@ -20,17 +20,30 @@ const HELP_LINES = [
 
 export default function LocalizarAyudaPage() {
   return (
-    <div className="pt-24 pb-16 md:pb-24">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Breadcrumbs items={[
-          { label: "Inicio", href: "/" },
-          { label: "Herramientas", href: "/herramientas" },
-          { label: "Líneas de Ayuda" },
-        ]} />
+    <div className="pb-16 md:pb-24">
+      {/* Hero header */}
+      <div className="relative h-40 md:h-48 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1600&q=80"
+          alt="Persona sosteniendo un teléfono en un entorno tranquilo"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary-900)]/85 to-[var(--color-primary-700)]/60" />
+        <div className="absolute inset-0 flex items-center">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <Breadcrumbs items={[
+              { label: "Inicio", href: "/" },
+              { label: "Herramientas", href: "/herramientas" },
+              { label: "Líneas de Ayuda" },
+            ]} />
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mt-3">
+              Directorio de Líneas de Ayuda
+            </h1>
+          </div>
+        </div>
+      </div>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-4">
-          Directorio de Líneas de Ayuda
-        </h1>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
         <p className="text-[var(--text-secondary)] mb-2">
           Si estás pasando por un momento difícil, no estás solo/a. Estas líneas de ayuda
           ofrecen apoyo gratuito y confidencial.

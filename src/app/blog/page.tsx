@@ -26,16 +26,27 @@ export default function BlogPage() {
     .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
-    <div className="pt-24 pb-16 md:pb-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Blog' }]} />
-        
-        <div className="max-w-2xl mb-10">
-          <h1 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)]">Blog</h1>
-          <p className="mt-3 text-[var(--text-secondary)] text-lg">
-            Artículos basados en evidencia científica sobre salud mental y bienestar emocional.
-          </p>
+    <div className="pb-16 md:pb-24">
+      {/* Hero header */}
+      <div className="relative h-48 md:h-56 lg:h-64 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1600&q=80"
+          alt="Persona escribiendo en un cuaderno junto a una taza de café"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary-900)]/85 to-[var(--color-primary-700)]/60" />
+        <div className="absolute inset-0 flex items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <Breadcrumbs items={[{ label: 'Inicio', href: '/' }, { label: 'Blog' }]} />
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-4">Blog</h1>
+            <p className="mt-2 text-white/70 text-lg max-w-2xl">
+              Artículos basados en evidencia científica sobre salud mental y bienestar emocional.
+            </p>
+          </div>
         </div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
 
         {/* Search + Filter */}
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
