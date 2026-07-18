@@ -123,6 +123,17 @@ body {
   color: var(--text-secondary);
 }
 
+/* Disclaimer blocks en artículos */
+.disclaimer-block {
+  background: var(--surface-secondary);
+  border-left: 3px solid var(--color-gold-400);
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
 .prose strong {
   font-weight: 600;
   color: var(--text-primary);
