@@ -107,8 +107,14 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-white text-[var(--text-primary)] antialiased">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-white focus:text-[var(--color-primary-500)] focus:border focus:border-[var(--color-primary-500)] focus:rounded-xl focus:text-sm focus:font-medium"
+        >
+          Saltar al contenido principal
+        </a>
         <Navbar />
-        <main className="min-h-screen">{children}</main>
+        <main id="main-content" className="min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>

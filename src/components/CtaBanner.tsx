@@ -18,7 +18,7 @@ export default function CtaBanner({
   const isPrimary = variant === 'primary';
 
   return (
-    <section className={`relative overflow-hidden rounded-3xl ${isPrimary ? 'bg-gradient-to-br from-[#1e3a8a] to-[#0f172a]' : 'bg-gradient-to-br from-[var(--color-gold-500)] to-[var(--color-gold-700)]'} p-8 md:p-12 lg:p-16`}>
+    <section className={`relative overflow-hidden rounded-3xl ${isPrimary ? 'bg-gradient-to-br from-[var(--color-primary-600)] to-[var(--color-primary-900)]' : 'bg-gradient-to-br from-[var(--color-gold-500)] to-[var(--color-gold-700)]'} p-8 md:p-12 lg:p-16`}>
       {/* Decorative circles */}
       <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-white/5" />
       <div className="absolute -bottom-16 -left-16 w-48 h-48 rounded-full bg-white/5" />

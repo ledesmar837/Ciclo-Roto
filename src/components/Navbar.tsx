@@ -41,7 +41,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#1e40af] to-[#1e3a8a] flex items-center justify-center transition-transform group-hover:scale-105">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[var(--color-primary-500)] to-[var(--color-primary-600)] flex items-center justify-center transition-transform group-hover:scale-105">
                 <span className="text-white font-bold text-sm">CR</span>
               </div>
               <span className="font-semibold text-lg text-[var(--text-primary)]">

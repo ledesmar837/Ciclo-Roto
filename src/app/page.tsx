@@ -60,7 +60,7 @@ export default function HomePage() {
             alt="Bienestar emocional"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0f172a]/90 via-[#0f172a]/70 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary-900)]/90 via-[var(--color-primary-900)]/70 to-transparent" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
@@ -99,10 +99,10 @@ export default function HomePage() {
       </section>
 
       {/* ======== CATEGORÍAS ======== */}
-      <section className="py-16 md:py-24 bg-[var(--surface-secondary)]">
+      <section className="py-16 md:py-24 bg-[var(--surface-secondary)]" aria-labelledby="categorias-title">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)]">
+            <h2 id="categorias-title" className="text-3xl md:text-4xl font-bold text-[var(--text-primary)]">
               Explora por categoría
             </h2>
             <p className="mt-3 text-[var(--text-secondary)] max-w-lg mx-auto">
