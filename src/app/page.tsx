@@ -57,8 +57,9 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <img
             src={heroImage}
-            alt="Bienestar emocional"
+            alt="Bienestar emocional — paisaje tranquilo que transmite calma y esperanza"
             className="w-full h-full object-cover"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary-900)]/90 via-[var(--color-primary-900)]/70 to-transparent" />
         </div>
