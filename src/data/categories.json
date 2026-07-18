@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ansiedad",
+    "name": "Ansiedad",
+    "slug": "ansiedad",
+    "description": "La ansiedad es una respuesta natural del organismo ante situaciones de amenaza o estrés. Sin embargo, cuando se vuelve persistente, desproporcionada o interfiere con la vida diaria, puede tratarse de un trastorno de ansiedad que requiere atención profesional.",
+    "icon": "🧠",
+    "color": "#6C63FF"
+  },
+  {
+    "id": "depresion",
+    "name": "Depresión",
+    "slug": "depresion",
+    "description": "La depresión es un trastorno mental frecuente que se caracteriza por tristeza persistente, pérdida de interés o placer en actividades, sentimientos de culpa o baja autoestima, alteraciones del sueño y del apetito. Es una condición médica tratable, no una debilidad personal.",
+    "icon": "💜",
+    "color": "#7B2D8E"
+  },
+  {
+    "id": "estres",
+    "name": "Estrés",
+    "slug": "estres",
+    "description": "El estrés es la respuesta del cuerpo ante demandas o presiones externas. En dosis moderadas puede ser adaptativo, pero el estrés crónico tiene efectos comprobados sobre la salud física y mental. Aprender a manejarlo es fundamental para el bienestar integral.",
+    "icon": "🌿",
+    "color": "#2D8E6B"
+  },
+  {
+    "id": "autoestima",
+    "name": "Autoestima",
+    "slug": "autoestima",
+    "description": "La autoestima es la valoración subjetiva que una persona hace de sí misma. Una autoestima saludable se relaciona con mayor bienestar psicológico, mejores relaciones interpersonales y mayor resiliencia frente a las adversidades de la vida.",
+    "icon": "✨",
+    "color": "#E8A838"
+  },
+  {
+    "id": "relaciones",
+    "name": "Relaciones Saludables",
+    "slug": "relaciones",
+    "description": "Las relaciones interpersonales saludables son fundamentales para el bienestar emocional. Comunicación asertiva, establecimiento de límites, empatía y resolución constructiva de conflictos son habilidades que pueden aprenderse y cultivarse.",
+    "icon": "🤝",
+    "color": "#D4506C"
+  },
+  {
+    "id": "mindfulness",
+    "name": "Mindfulness",
+    "slug": "mindfulness",
+    "description": "Mindfulness o atención plena es la práctica de prestar atención al momento presente de forma intencional y sin juzgar. Numerosos estudios respaldan su eficacia para reducir el estrés, la ansiedad y prevenir recaídas en depresión.",
+    "icon": "☯️",
+    "color": "#4A90D9"
+  }
+]

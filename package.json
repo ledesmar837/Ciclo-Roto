@@ -1,0 +1,35 @@
+{
+  "name": "ciclo-roto",
+  "version": "1.0.0",
+  "description": "El Ciclo Roto — Información responsable sobre salud mental basada en evidencia científica.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ledesmar837/Ciclo-Roto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ledesmar837/Ciclo-Roto/issues"
+  },
+  "homepage": "https://github.com/ledesmar837/Ciclo-Roto#readme",
+  "dependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.7.3"
+  }
+}

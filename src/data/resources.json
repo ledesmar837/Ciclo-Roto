@@ -1,0 +1,50 @@
+[
+  {
+    "id": "guia-ansiedad",
+    "title": "Guía de Autoayuda para la Ansiedad",
+    "description": "Guía práctica basada en principios de la terapia cognitivo-conductual (TCC) con ejercicios de respiración, reestructuración cognitiva y exposición gradual. Incluye técnicas respaldadas por el Instituto Nacional de Salud Mental (NIMH) de EE.UU.",
+    "type": "guia",
+    "categoryId": "ansiedad",
+    "fileUrl": "/recursos/guias/guia-ansiedad.pdf"
+  },
+  {
+    "id": "ejercicio-respiracion",
+    "title": "Ejercicio de Respiración Diafragmática Guiada",
+    "description": "Audio guiado de 10 minutos para practicar respiración diafragmática, una técnica validada por la American Psychological Association (APA) para la reducción inmediata de la activación fisiológica asociada a la ansiedad y el estrés.",
+    "type": "ejercicio",
+    "categoryId": "estres",
+    "fileUrl": "/recursos/ejercicios/respiracion-diafragmatica.mp3"
+  },
+  {
+    "id": "audio-mindfulness",
+    "title": "Meditación de Escaneo Corporal (Body Scan)",
+    "description": "Meditación guiada de 15 minutos basada en el protocolo de Reducción de Estrés Basada en Mindfulness (MBSR) desarrollado por Jon Kabat-Zinn en la Universidad de Massachusetts. Respaldado por estudios del NIH.",
+    "type": "audio",
+    "categoryId": "mindfulness",
+    "fileUrl": "/recursos/audios/body-scan.mp3"
+  },
+  {
+    "id": "lista-sintomas-depresion",
+    "title": "Lista de Verificación de Síntomas Depresivos (PHQ-9)",
+    "description": "Versión informativa del Cuestionario de Salud del Paciente (PHQ-9), instrumento de cribado validado internacionalmente para la depresión. NO reemplaza una evaluación profesional. Incluye instrucciones sobre cuándo buscar ayuda.",
+    "type": "lista",
+    "categoryId": "depresion",
+    "fileUrl": "/recursos/listas/phq9-informativo.pdf"
+  },
+  {
+    "id": "guia-autoestima",
+    "title": "Diario de Fortalezas Personales",
+    "description": "Ejercicio estructurado para identificar y registrar fortalezas personales, basado en la psicología positiva (Seligman, 2011). Incluye indicaciones diarias para cultivar una autoimagen más equilibrada y compasiva.",
+    "type": "guia",
+    "categoryId": "autoestima",
+    "fileUrl": "/recursos/guias/diario-fortalezas.pdf"
+  },
+  {
+    "id": "ejercicio-comunicacion",
+    "title": "Ejercicio de Comunicación Asertiva: Mensajes «Yo»",
+    "description": "Hoja de trabajo para practicar la comunicación asertiva mediante la técnica de mensajes en primera persona, recomendada por la APA para mejorar la expresión emocional y reducir conflictos interpersonales.",
+    "type": "ejercicio",
+    "categoryId": "relaciones",
+    "fileUrl": "/recursos/ejercicios/mensajes-yo.pdf"
+  }
+]

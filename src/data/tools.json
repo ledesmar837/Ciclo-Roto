@@ -1,0 +1,30 @@
+[
+  {
+    "id": "test-ansiedad",
+    "title": "Evaluación de Ansiedad (GAD-7)",
+    "description": "Cuestionario interactivo basado en el Generalized Anxiety Disorder Scale (GAD-7), herramienta de cribado validada clínicamente para detectar posibles trastornos de ansiedad. Resultados anónimos e informativos. No sustituye un diagnóstico profesional.",
+    "icon": "clipboard-list",
+    "route": "/herramientas/test-ansiedad"
+  },
+  {
+    "id": "diario-emociones",
+    "title": "Diario de Emociones",
+    "description": "Lleva un registro diario de tus emociones, pensamientos automáticos y patrones de comportamiento. Basado en principios de la terapia cognitivo-conductual (TCC). Los datos se almacenan localmente en tu dispositivo.",
+    "icon": "book-heart",
+    "route": "/herramientas/diario-emociones"
+  },
+  {
+    "id": "respiracion-guiada",
+    "title": "Respiración Guiada Interactiva",
+    "description": "Animación visual interactiva para practicar respiración diafragmática a diferentes ritmos. Incluye modos: caja (4-4-4-4), relajación (4-7-8) y calmante (2-4-6). Basado en técnicas de la American Lung Association y la APA.",
+    "icon": "wind",
+    "route": "/herramientas/respiracion-guiada"
+  },
+  {
+    "id": "localizar-ayuda",
+    "title": "Directorio de Líneas de Ayuda",
+    "description": "Directorio con números de teléfono y líneas de crisis de salud mental organizadas por país. Incluye la Línea de Prevención del Suicidio (988 en EE.UU.) y líneas locales. La información se actualiza periódicamente desde fuentes oficiales.",
+    "icon": "phone-call",
+    "route": "/herramientas/localizar-ayuda"
+  }
+]
